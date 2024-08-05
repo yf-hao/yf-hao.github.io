@@ -26,7 +26,7 @@
 <script src="/js/jquery-1.11.1.min.js"></script>
 
   <script>
-    var userDefinedSearchData = {"custom":false,"thisSearch":"https://www.baidu.com/s?wd=","thisSearchIcon":"url(https://www.baidu.com/favicon.ico)","hotStatus":true,"data":[{"name":"百度","img":"url(https://www.baidu.com/favicon.ico)","url":"https://www.baidu.com/s?wd="}]};
+    var userDefinedSearchData = {};
     var expandAll = false;
   </script>
   
@@ -158,6 +158,16 @@
           
       </li>
       
+      <li class="">
+        
+          <a href="#杂记" class="smooth">
+            
+            <i class="far fa-file-code"></i>
+            <span class="title">杂记</span>
+          </a>
+          
+      </li>
+      
       
       <li class="submit-tag">
         <a href="/about/">
@@ -220,30 +230,6 @@
     </ul>
     
     </nav>
-    
-    <section class="sousuo">
-      <div class="search">
-        <div class="search-box">
-          <span class="search-icon" style="background: url(/images/search_icon.png) 0px 0px; opacity: 1;"></span>
-          <input type="text" id="txt" class="search-input" autocomplete="off" placeholder="请输入关键字，按回车 / Enter 搜索">
-          <button class="search-btn" id="search-btn"><i class="fa fa-search"></i></button>
-        </div>
-        <!-- 搜索热词 -->
-        <div class="box search-hot-text" id="box" style="display: none;">
-          <ul></ul>
-        </div>
-        <!-- 搜索引擎 -->
-        <div class="search-engine" style="display: none;">
-          <div class="search-engine-head">
-            <strong class="search-engine-tit">选择您的默认搜索引擎：</strong>
-            <div class="search-engine-tool">搜索热词： <span id="hot-btn" style="background-image: url(/images/off_on.png);"></span></div>
-          </div>
-          <ul class="search-engine-list search-engine-list_zmki_ul">
-          </ul>
-        </div>
-    </section>
-    <script>search('/images/search_icon.png')</script>
-  
   
     
 <script src="/js/footer.js"></script>
